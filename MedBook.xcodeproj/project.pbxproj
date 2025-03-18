@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		A9A082F92D87F81100C09267 /* MedBook.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A9A082F72D87F81100C09267 /* MedBook.xcdatamodeld */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		A98ACFA12D85854100F40AA4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,11 +31,25 @@
 		A98ACF902D85854000F40AA4 /* MedBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A98ACFA02D85854100F40AA4 /* MedBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A98ACFAA2D85854100F40AA4 /* MedBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MedBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9A082F82D87F81100C09267 /* MedBook.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MedBook.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A9A083012D882FAD00C09267 /* Exceptions for "MedBook" folder in "MedBook" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A98ACF8F2D85854000F40AA4 /* MedBook */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A98ACF922D85854000F40AA4 /* MedBook */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A9A083012D882FAD00C09267 /* Exceptions for "MedBook" folder in "MedBook" target */,
+			);
 			path = MedBook;
 			sourceTree = "<group>";
 		};
@@ -75,6 +93,7 @@
 		A98ACF872D85854000F40AA4 = {
 			isa = PBXGroup;
 			children = (
+				A9A082F72D87F81100C09267 /* MedBook.xcdatamodeld */,
 				A98ACF922D85854000F40AA4 /* MedBook */,
 				A98ACFA32D85854100F40AA4 /* MedBookTests */,
 				A98ACFAD2D85854100F40AA4 /* MedBookUITests */,
@@ -236,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9A082F92D87F81100C09267 /* MedBook.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +419,7 @@
 				DEVELOPMENT_TEAM = NS2W96R9L8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedBook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -428,6 +449,7 @@
 				DEVELOPMENT_TEAM = NS2W96R9L8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MedBook/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -558,6 +580,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A9A082F72D87F81100C09267 /* MedBook.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A9A082F82D87F81100C09267 /* MedBook.xcdatamodel */,
+			);
+			currentVersion = A9A082F82D87F81100C09267 /* MedBook.xcdatamodel */;
+			path = MedBook.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = A98ACF882D85854000F40AA4 /* Project object */;
 }
